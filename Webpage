@@ -1,0 +1,95 @@
+    <head>
+        <title>Demo page</title>
+
+        <link rel="stylesheet" href="webpage.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="navbar">
+                <h1>Self Learning <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                        width="24px" fill="#e8eaed">
+                        <path
+                            d="M440-240q-117 0-198.5-81.5T160-520v-240q0-33 23.5-56.5T240-840h500q58 0 99 41t41 99q0 58-41 99t-99 41h-20v40q0 117-81.5 198.5T440-240ZM240-640h400v-120H240v120Zm200 320q83 0 141.5-58.5T640-520v-40H240v40q0 83 58.5 141.5T440-320Zm280-320h20q25 0 42.5-17.5T800-700q0-25-17.5-42.5T740-760h-20v120ZM160-120v-80h640v80H160Zm280-440Z" />
+                    </svg></h1>
+                <nav>
+                    <a href="">Home</a>||
+                    <a href="">Contact </a>||
+                    <a href="">About</a>
+                </nav>
+            </div>
+        </header>
+        <div id="form">
+
+            <h1 class="formheading">Registeration Form</h1>
+            <p>Please fill in this form to create an account.</p>
+
+            <label for="Enter Your Name"><b>Enter Your Name</b></label>
+            <input type="text" placeholder="Enter name" mame="User name" id="Enter Your Name" reqirued>
+            <br>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" reqirued>
+            <br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            <br>
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+            <br>
+            <label for="Enter Your Gender"><b>Enter Your Gender</b></label>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">FeMale
+            <br>
+
+            <input type="Submit" value="Submit">
+            </form>
+        </div>
+        <h2>Paragraph For Self Learning</h2>
+        <p>
+            Self-learning is a process where you teach yourself without a teacher. You find and study information alone.
+            This method is popular because you can learn at your own speed. It’s like reading a book by yourself instead
+            of in a group.
+            <br>
+
+            Self-learning has many benefits. You can study whenever you want. You can also choose what you want to
+            learn. This flexibility makes it easier to learn new things. It also builds confidence because you’re in
+            charge of your own learning.
+            <br>
+
+            Self-learning can be hard. It requires discipline and motivation. Without a teacher, you have to find and
+            understand information yourself. This can be tough, but it also makes you a better learner.
+
+        </p>
+        <br>
+
+        <div id="iframe">
+            <iframe width="540" height="300" src="https://www.youtube.com/embed/s4wkDZf8nAc?si=ZoFh10oEOzB1rept"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
+        </div>
+        <br>
+
+        <p>
+            Technology helps with self-learning. The internet has many resources for learning. Websites and apps can
+            teach you new things. You can also find online communities of other self-learners. They can help you
+            when you’re stuck.
+            <br>
+
+            In conclusion, self-learning is a powerful tool. It can be challenging, but it’s also rewarding. With
+            discipline and the right resources, anyone can be a successful self-learner.
+
+        </p>
+        <div id="img">
+            <img src="sl.img">
+        </div>
+
+        <footer>
+            <p>Author: Kowsaly D
+                <br>
+                <a href="mailto:jessidani9298@example.com">jessidani9298@example.com</a>
+            </p>
+        </footer>
+    </body>
+
+    </html>
